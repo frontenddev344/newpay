@@ -1227,7 +1227,9 @@ font-size: 14px;
 .location-info .flex-btn button {
 font-size: 14px;
 }
-
+.kokeemap iframe {
+    height: 202px;
+}
 }
 
 
