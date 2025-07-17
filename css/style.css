@@ -6119,20 +6119,7 @@ font-weight: 600;
 
 .kokee-order .right {display: flex;justify-content: end;align-items: center;height: 100%;}
 
-.kokee-order .right a {
-background: var(--main-green, #8ab800);
-border-radius: 7.38px;
-font-size: 17.700000762939453px;
-font-weight: 500;
-color: var(--white, #ffffff);
-text-align: center;
-padding: 2.95px 10px 2.95px 10px;
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
-max-width: 221px;
-width: 100%;
+.kokee-order .right a { background: var(--main-green, #8ab800); border-radius: 7.38px; font-size: 17.700000762939453px; font-weight: 500; color: var(--white, #ffffff); text-align: center; padding: 2.95px 10px 2.95px 10px; display: flex; flex-direction: column; align-items: center; justify-content: center; max-width: 221px; width: 100%; transition: all .3s ease; -webkit-transition: all .3s ease; -moz-transition: all .3s ease; -ms-transition: all .3s ease; -o-transition: all .3s ease;
 }
 .kokee-order {
 padding: 30px 0;
@@ -6161,7 +6148,7 @@ box-shadow: 3px 4px 6px rgba(0, 0, 0, 0.25);
 height: 100%;
 }
 
-.arrivals-sec .card-product h3 a {color: #000;text-align: left;font-size: 21.764192581176758px;font-weight: 600;display: block;padding-bottom: 6px;}
+.arrivals-sec .card-product h3 a { color: #000; text-align: left; font-size: 21.764192581176758px; font-weight: 600; display: block; padding-bottom: 6px; transition:all .3s ease ; -webkit-transition:all .3s ease ; -moz-transition:all .3s ease ; -ms-transition:all .3s ease ; -o-transition:all .3s ease ; }
 
 .arrivals-sec .card-product p {
 color: #a6a6a6;
@@ -6329,9 +6316,17 @@ background: #fff;
 }
 
 .accord-kokee .left_cont_accord p {
-    color: #a6a6a6;
-    text-align: left;
-    font-size: 12px;
-    letter-spacing: -0.02em;
-    font-weight: 300;
+color: #a6a6a6;
+text-align: left;
+font-size: 12px;
+letter-spacing: -0.02em;
+font-weight: 300;
+}
+
+.arrivals-sec .card-product:hover h3 a {
+color: #8ab800;
+}
+
+.kokee-order .right a:hover {
+background: #000;
 }
