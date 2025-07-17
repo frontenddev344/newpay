@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Thank You</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" href="images/favicon.png" type="image/x-icon">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/owl.carousel.css" />
+	<link rel="stylesheet" href="css/owl.theme.default.css" />
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/responsive.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body class="header thanku-page-body">
+
+<header id="myHeader" class="header_section fixed-top">
+	<div class="mid_menu_header">
+		<div class="container">
+			<div class="row">
+				<div class="col-2">
+					<div class="header_logo">
+						<a href="index.html">
+						<img src="images/logo.png" alt="Logo" /></a>
+					</div>
+				</div>
+				<div class="col-6 text-left menus">					
+					<div class="header_navigation">
+						<div id="mySidenavs" class="sidenavs">
+						  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+						  <!--ul class="menu_navigation">
+							<li class=""><a href="#">About</a>
+								
+							</li>
+							<li><a href="#">Training </a></li>
+							<li><a href="#">TEAM</a></li>
+							<li><a href="#">RESOURCES</a></li>
+							<li><a href="#">Contact</a></li>
+						  </ul-->
+							<div class="deliver-main">
+								<div class="pic-deliv">
+									<a href="#" class="btn active">Delivery</a>
+									<a href="#" class="btn">Pickup</a>
+								</div>
+								<div class="loc-sch ">
+									<div class="sch-btn location-mains">
+										<a href="#" class="btn">
+											<span class="clocl-icon">
+												
+												<svg xmlns="http://www.w3.org/2000/svg" width="12" height="16" viewBox="0 0 12 16" fill="none">
+												  <circle cx="5.99986" cy="5.42857" r="5.42857" fill="black"/>
+												  <path d="M6.85514 14.5894C6.46587 15.2315 5.53413 15.2315 5.14486 14.5894L1.72433 8.94697C1.32032 8.28054 1.80014 7.42857 2.57947 7.42857L9.42053 7.42857C10.1999 7.42857 10.6797 8.28054 10.2757 8.94697L6.85514 14.5894Z" fill="black"/>
+												  <circle cx="5.95162" cy="5.69161" r="2.74923" fill="#EDEEEF"/>
+												</svg>
+											</span>
+											Hackensack, NJ 
+											<span class="drop-icon">
+												<svg xmlns="http://www.w3.org/2000/svg" width="10" height="5" viewBox="0 0 10 5" fill="none">
+												  <path d="M5 5L0 0H10L5 5Z" fill="#1C1B1F"/>
+												</svg>
+											</span>
+										</a>
+										<div class="add-location-main">
+											<div class="cross_btns">
+												<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+												  <path d="M5.6 20L4 18.4L10.4 12L4 5.6L5.6 4L12 10.4L18.4 4L20 5.6L13.6 12L20 18.4L18.4 20L12 13.6L5.6 20Z" fill="black"/>
+												</svg>
+											</div>
+											<div class="location-form">
+												<p>Delivery address</p>
+												<div class="input-group">
+												  <div class="input-group-prepend">
+													<span class="input-group-text">
+														<svg xmlns="http://www.w3.org/2000/svg" width="12" height="16" viewBox="0 0 12 16" fill="none">
+															<circle cx="5.99986" cy="5.42857" r="5.42857" fill="#1A070066"/>
+															<path d="M6.85514 14.5894C6.46587 15.2315 5.53413 15.2315 5.14486 14.5894L1.72433 8.94697C1.32032 8.28054 1.80014 7.42857 2.57947 7.42857L9.42053 7.42857C10.1999 7.42857 10.6797 8.28054 10.2757 8.94697L6.85514 14.5894Z" fill="#1A070066"/>
+															<circle cx="5.95162" cy="5.69161" r="2.74923" fill="#EDEEEF"/>
+															</svg>
+													</span>
+												  </div>
+												  <input class="form-control" type="text" placeholder="Enter an address" aria-label="Search">
+												  
+												</div>
+												<div class="main-btn">
+													<div href="./thankyou.html" class="btn-green btn">Update</div>
+												  </div>
+											</div>
+										</div>
+									</div>
+									<div class="sch-btn loc-btn">
+										<a href="#" class="btn" data-toggle="modal" data-target="#Schedule-Modal-one">
+											<span class="clocl-icon">
+												<svg xmlns="http://www.w3.org/2000/svg" width="16" height="17" viewBox="0 0 16 17" fill="none">
+												  <path d="M10.64 12.26L11.76 11.14L8.8 8.18V4.5H7.2V8.82L10.64 12.26ZM8 16.5C6.89333 16.5 5.85333 16.29 4.88 15.87C3.90667 15.45 3.06 14.88 2.34 14.16C1.62 13.44 1.05 12.5933 0.63 11.62C0.21 10.6467 0 9.60667 0 8.5C0 7.39333 0.21 6.35333 0.63 5.38C1.05 4.40667 1.62 3.56 2.34 2.84C3.06 2.12 3.90667 1.55 4.88 1.13C5.85333 0.71 6.89333 0.5 8 0.5C9.10667 0.5 10.1467 0.71 11.12 1.13C12.0933 1.55 12.94 2.12 13.66 2.84C14.38 3.56 14.95 4.40667 15.37 5.38C15.79 6.35333 16 7.39333 16 8.5C16 9.60667 15.79 10.6467 15.37 11.62C14.95 12.5933 14.38 13.44 13.66 14.16C12.94 14.88 12.0933 15.45 11.12 15.87C10.1467 16.29 9.10667 16.5 8 16.5ZM8 14.9C9.77333 14.9 11.2833 14.2767 12.53 13.03C13.7767 11.7833 14.4 10.2733 14.4 8.5C14.4 6.72667 13.7767 5.21667 12.53 3.97C11.2833 2.72333 9.77333 2.1 8 2.1C6.22667 2.1 4.71667 2.72333 3.47 3.97C2.22333 5.21667 1.6 6.72667 1.6 8.5C1.6 10.2733 2.22333 11.7833 3.47 13.03C4.71667 14.2767 6.22667 14.9 8 14.9Z" fill="#1C1B1F"/>
+												</svg>
+											</span>
+											Schedule 
+											<span class="drop-icon">
+												<svg xmlns="http://www.w3.org/2000/svg" width="10" height="5" viewBox="0 0 10 5" fill="none">
+												  <path d="M5 5L0 0H10L5 5Z" fill="#1C1B1F"/>
+												</svg>
+											</span>
+										</a>
+									</div>
+								</div>
+							</div>
+						  
+						</div>
+						<span class="toggle_menu" onclick="openNav()"><i class="fa fa-bars"></i></span>
+					</div>	
+				</div>
+				<div class="col-4 end-menu">
+					<div class="last-mains">
+							
+							<div class="haed-searchbar">
+								<div class="input-group">
+								  <div class="input-group-prepend">
+									<span class="input-group-text" id="basic-text1">
+										<svg xmlns="http://www.w3.org/2000/svg" width="16" height="17" viewBox="0 0 16 17" fill="none">
+										<mask id="mask0_1_5724" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="16" height="17">
+										<rect y="0.5" width="16" height="16" fill="#D9D9D9"/>
+										</mask>
+										<g mask="url(#mask0_1_5724)">
+										<path d="M13.0667 14.5L8.86667 10.3C8.53333 10.5667 8.15 10.7778 7.71667 10.9333C7.28333 11.0889 6.82222 11.1667 6.33333 11.1667C5.12222 11.1667 4.09722 10.7472 3.25833 9.90833C2.41944 9.06944 2 8.04444 2 6.83333C2 5.62222 2.41944 4.59722 3.25833 3.75833C4.09722 2.91944 5.12222 2.5 6.33333 2.5C7.54444 2.5 8.56944 2.91944 9.40833 3.75833C10.2472 4.59722 10.6667 5.62222 10.6667 6.83333C10.6667 7.32222 10.5889 7.78333 10.4333 8.21667C10.2778 8.65 10.0667 9.03333 9.8 9.36667L14 13.5667L13.0667 14.5ZM6.33333 9.83333C7.16667 9.83333 7.875 9.54167 8.45833 8.95833C9.04167 8.375 9.33333 7.66667 9.33333 6.83333C9.33333 6 9.04167 5.29167 8.45833 4.70833C7.875 4.125 7.16667 3.83333 6.33333 3.83333C5.5 3.83333 4.79167 4.125 4.20833 4.70833C3.625 5.29167 3.33333 6 3.33333 6.83333C3.33333 7.66667 3.625 8.375 4.20833 8.95833C4.79167 9.54167 5.5 9.83333 6.33333 9.83333Z" fill="#1A0700" fill-opacity="0.4"/>
+										</g>
+										</svg>
+									</span>
+								  </div>
+								  <input class="form-control" type="text" placeholder="Search for Restaurants" aria-label="Search">
+								</div>
+							</div>
+							<ul>
+								<li><a href="#" class="bdr-btn">Sign in</a></li>
+								<li class="cart-list-right">
+									<a href="">
+										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+										<mask id="mask0_1_5729" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+										<rect width="24" height="24" fill="#D9D9D9"/>
+										</mask>
+										<g mask="url(#mask0_1_5729)">
+										<path d="M5 23.2C4.45 23.2 3.979 23.0014 3.587 22.6042C3.19567 22.2063 3 21.7283 3 21.17V8.99001C3 8.43176 3.19567 7.95403 3.587 7.55683C3.979 7.15895 4.45 6.96001 5 6.96001H7C7 5.55593 7.48767 4.3589 8.463 3.36894C9.43767 2.37965 10.6167 1.88501 12 1.88501C13.3833 1.88501 14.5627 2.37965 15.538 3.36894C16.5127 4.3589 17 5.55593 17 6.96001H19C19.55 6.96001 20.021 7.15895 20.413 7.55683C20.8043 7.95403 21 8.43176 21 8.99001V21.17C21 21.7283 20.8043 22.2063 20.413 22.6042C20.021 23.0014 19.55 23.2 19 23.2H5ZM5 21.17H19V8.99001H5V21.17ZM12 15.08C13.3833 15.08 14.5627 14.585 15.538 13.5951C16.5127 12.6058 17 11.4091 17 10.005H15C15 10.8508 14.7083 11.5698 14.125 12.1619C13.5417 12.754 12.8333 13.05 12 13.05C11.1667 13.05 10.4583 12.754 9.875 12.1619C9.29167 11.5698 9 10.8508 9 10.005H7C7 11.4091 7.48767 12.6058 8.463 13.5951C9.43767 14.585 10.6167 15.08 12 15.08ZM9 6.96001H15C15 6.11418 14.7083 5.39522 14.125 4.80313C13.5417 4.21105 12.8333 3.91501 12 3.91501C11.1667 3.91501 10.4583 4.21105 9.875 4.80313C9.29167 5.39522 9 6.11418 9 6.96001Z" fill="#1C1B1F"/>
+										</g>
+										</svg>
+										<span class="ordr-count">2</span>
+									</a>
+								</li>
+							</ul>
+						  </div>
+				</div>
+
+			</div>
+		</div>
+	</div>	
+</header>
+
+<!-- Schedule Modal -->
+<div class="modal fade" id="Schedule-Modal-one" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+		    <path d="M5.6 20L4 18.4L10.4 12L4 5.6L5.6 4L12 10.4L18.4 4L20 5.6L13.6 12L20 18.4L18.4 20L12 13.6L5.6 20Z" fill="black"/>
+		  </svg>
+        </button>
+      </div>
+      <div class="modal-body">
+		<div class="schedule-wrap">
+			<h5>Your order settings</h5>
+			<div class="stp-btn">
+				<a href="#" class="btn">Delivery <span class="dv-time">35-45 min • $0.50</span></a>
+				<a href="#" class="btn active">Pickup <span class="dv-time">15-20 min</span></a>
+			</div>
+			<div class="schdule-order">
+				<h5>Schedule order</h5>
+				<div class="slct_main">
+					<p class="select-head">Date</p>
+					<div class="cs-seclect">
+						<select name="sources" id="sources" class="custom-select sources" placeholder="Today, Sep 19">
+						 <option value="profile">Today, Sep 19</option>
+						 <option value="word">Today, Sep 19</option>
+						 <option value="hashtag">Today, Sep 19</option>
+						 <option value="profile1">Today, Sep 19</option>
+						 <option value="word1">Today, Sep 19</option>
+						 <option value="hashtag1">Today, Sep 19</option>
+						</select>
+					</div>
+				</div>
+				<div class="slct_main">
+					<p class="select-head">Date</p>
+					<div class="cs-seclect">
+						<select name="sources2" id="sources2" class="custom-select sources2" placeholder="1:30pm">
+						 <option value="profile">1:30pm</option>
+						 <option value="word">1:30pm</option>
+						 <option value="hashtag">1:30pm</option>
+						 <option value="profile2">1:30pm</option>
+						 <option value="word2">1:30pm</option>
+						 <option value="hashtag2">1:30pm</option>
+						</select>
+					</div>
+				</div>
+			</div>
+			<div class="upadte-btn">
+				<a href="./thankyou.html"  class="btn-green btn">Update</a>
+			</div>
+		</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<section class="main-manu checkout_main thank_main">
+	<div class="container-fluid">
+		<div class="row ">
+			<div class="col-md-12 left_set">
+				<div class="accord-row checkot_row">
+					<div class="row none_from_lg">
+						<div class="col-12">
+							<div class="thank_you_order_main">
+								<div class="thank_you_order">
+									<div class="thank_left">
+										<div class="thank_left_img">
+											<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50" fill="none">
+											  <circle cx="25" cy="25" r="25" fill="#8AB702"/>
+											  <path d="M14 24.5732L21.783 33.9622L36.6415 16.0377" stroke="white" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+											</svg>
+										</div>
+										<div class="thank_right_cont">
+											<p class="order_number">Order #2H109D5</p>
+											<h2>Thank you for your order!</h2>
+											<span class="will_text">You will receive order updates via email and SMS.</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-12">
+							<div class="final_thank_main">
+								<div class="final_thank_addrss">
+									<div class="final_thank_addrss_wrap none_from_lg">
+										<div class="thank_top_head " >
+												<svg xmlns="http://www.w3.org/2000/svg" width="31" height="30" viewBox="0 0 31 30" fill="none">
+												  <ellipse cx="15.7918" cy="15" rx="15.0188" ry="15" fill="#8AB800"/>
+												  <mask id="mask0_103_2657" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="3" y="3" width="25" height="24">
+													<rect x="3.77686" y="3" width="24.03" height="24" fill="#D9D9D9"/>
+												  </mask>
+												  <g mask="url(#mask0_103_2657)">
+													<path d="M10.7856 26L13.5891 11.9L11.7868 12.6V16H9.7843V11.3L14.8406 9.15C15.0742 9.05 15.3204 8.99167 15.579 8.975C15.8377 8.95833 16.0838 8.99167 16.3175 9.075C16.5511 9.15833 16.7722 9.275 16.9808 9.425C17.1894 9.575 17.3604 9.76667 17.4939 10L18.4952 11.6C18.9291 12.3 19.5173 12.875 20.2599 13.325C21.0025 13.775 21.8494 14 22.8006 14V16C21.6324 16 20.5895 15.7583 19.6716 15.275C18.7538 14.7917 17.9695 14.175 17.3187 13.425L16.6929 16.5L18.7956 18.5V26H16.7931V19.5L14.6904 17.9L12.8882 26H10.7856ZM17.2937 8.5C16.743 8.5 16.2716 8.30417 15.8794 7.9125C15.4873 7.52083 15.2912 7.05 15.2912 6.5C15.2912 5.95 15.4873 5.47917 15.8794 5.0875C16.2716 4.69583 16.743 4.5 17.2937 4.5C17.8444 4.5 18.3158 4.69583 18.7079 5.0875C19.1001 5.47917 19.2962 5.95 19.2962 6.5C19.2962 7.05 19.1001 7.52083 18.7079 7.9125C18.3158 8.30417 17.8444 8.5 17.2937 8.5Z" fill="white"/>
+												  </g>
+												</svg>
+											  <span class="green_taxts">Pickup Order</span> <span class="item-addrs">ASAP, 10-20 min • 2.43 mi away</span>
+										</div>
+										<div class="checkout_accord_inn">
+											<div class="pikup_order">
+												<div class="order_content">
+													<div class="orderhead mt-0"><h6>Pickup from</h6></div>
+													<p class="order_locations">Kudo Society</p>
+													<p class="addrss_main">141 W Central Blvd, Palisades Park, NJ 07650</p>
+													
+													<div class="orderhead order_head_by"><h6>Pickup by</div>
+													<p class="addrss_main mb-0">Elizabeth K.</p>
+													<p class="addrss_main">(201) 123-1234</p>
+													
+													<div class="orderhead order_head_by"><h6>Payment Information</div>
+													<p class="addrss_main card_in"> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="17" viewBox="0 0 24 17" fill="none">
+													  <rect width="24" height="17.0071" transform="translate(0 -0.00354004)" fill="#4E4E4E"/>
+													  <path d="M14.4736 4.04303H9.51318V12.957H14.4736V4.04303Z" fill="#FF5F00"/>
+													  <path d="M9.82838 8.50003C9.8276 7.64154 10.0221 6.79414 10.3973 6.02195C10.7724 5.24977 11.3183 4.57306 11.9936 4.04304C11.1573 3.38568 10.153 2.97689 9.0953 2.86337C8.03766 2.74985 6.96941 2.93619 6.01266 3.40109C5.05591 3.86599 4.24926 4.5907 3.68491 5.49237C3.12056 6.39404 2.82129 7.4363 2.82129 8.50003C2.82129 9.56375 3.12056 10.606 3.68491 11.5077C4.24926 12.4094 5.05591 13.1341 6.01266 13.599C6.96941 14.0639 8.03766 14.2502 9.0953 14.1367C10.153 14.0232 11.1573 13.6144 11.9936 12.957C11.3183 12.427 10.7724 11.7503 10.3973 10.9781C10.0221 10.2059 9.82761 9.35851 9.82838 8.50003Z" fill="#EB001B"/>
+													  <path d="M21.1657 8.50002C21.1657 9.56373 20.8665 10.606 20.3022 11.5077C19.7379 12.4093 18.9312 13.134 17.9745 13.5989C17.0178 14.0639 15.9495 14.2502 14.8919 14.1367C13.8343 14.0232 12.8299 13.6144 11.9937 12.957C12.6684 12.4265 13.2139 11.7496 13.5889 10.9776C13.964 10.2055 14.1589 9.35837 14.1589 8.50002C14.1589 7.64168 13.964 6.79454 13.5889 6.02248C13.2139 5.25042 12.6684 4.57359 11.9937 4.04303C12.8299 3.38568 13.8343 2.97689 14.8919 2.86337C15.9495 2.74985 17.0178 2.9362 17.9745 3.4011C18.9312 3.86601 19.7379 4.59071 20.3022 5.49239C20.8665 6.39406 21.1657 7.43632 21.1657 8.50002Z" fill="#F79E1B"/>
+													  <path d="M20.6251 12.0129V11.8304H20.6986V11.7932H20.5112V11.8304H20.5848V12.0129H20.6251ZM20.9889 12.0129V11.7928H20.9315L20.8654 11.9442L20.7993 11.7928H20.7418V12.0129H20.7824V11.8469L20.8443 11.99H20.8864L20.9484 11.8465V12.0129H20.9889Z" fill="#F79E1B"/>
+													</svg>MasterCard - 1234</p>
+													
+													<div class="orderhead order_head_by"><h6>Pickup Information</div>
+													<p class="addrss_main mb-0">Pickup Time -7:35 PM 09/20/23 </p>
+													<p class="addrss_main">Pickup Time -7:35 PM 09/20/23 </p>
+
+												</div>
+											</div>
+										</div>
+									</div>
+									
+									<div class="thank_mobile show_from_lg">
+										<div class="thank_head_mob">
+											<div class="thnk_icon">
+												<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50" fill="none">
+												  <circle cx="25" cy="25" r="25" fill="#8AB702"/>
+												  <path d="M14 24.5732L21.783 33.9622L36.6415 16.0377" stroke="white" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+												</svg>
+											</div>
+											<h6>Order submitted successfully</h6>
+										</div>
+										<div class="thnak_ordr_main">
+											<p>
+												<span class="left_tnk">Order ID</span>
+												<span class="right_tnk">#1002020112510001</span>
+											</p>
+											<p>
+												<span class="left_tnk">Customer</span>
+												<span class="right_tnk">SusanK(123123)</span>
+											</p>
+											<p>
+												<span class="left_tnk">Order Time</span>
+												<span class="right_tnk">01/20/2023 7:22:49 PM</span>
+											</p>
+											<p>
+												<span class="left_tnk">Food Preparing Time</span>
+												<span class="right_tnk">870 mins</span>
+											</p>
+											<p>
+												<span class="left_tnk">Pickup Time</span>
+												<span class="right_tnk">1/20/2021 3:54:12 PM</span>
+											</p>
+											<p class="all_total_tank">
+												<span class="left_tnk">Total Amt</span>
+												<span class="right_tnk">$46.24</span>
+											</p>
+											<div class="resto_info">
+												<p>
+													<span class="left_tnk">Restaurant Info</span>
+													<span class="right_tnk"><strong>Halal Restaurant</strong></span>
+												</p>
+												<p>
+													<span class="left_tnk">Phone #</span>
+													<span class="right_tnk">(201) 288-2525</span>
+												</p>
+												<p>
+													<span class="left_tnk">Address</span>
+													<span class="right_tnk">333 Grand Ave, Palisades Park, NJ 07650</span>
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="place_orders">
+								<p class="show_from_lg">We will send an SMS when the food is ready. Thank you for ordering!</p>
+								<a href="index.html" class="btn btn-green">
+									Go back to Homepage
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-12 right_set">
+				<div class="cart_side_bar thank_you_side">
+					<div class="side_cart_top">
+						<div class="pikup_order pk-addrss-top">
+							<div class="man_icon">
+								<img src="images/circle-Img.png" alt="img" />
+							</div>
+							<div class="order_content">
+								<div class="orderhead"><h6>Kudo Society</h6></div>
+							</div>
+						</div>
+						<h6 class="order_summ">Order Summary</h6>
+						<div class="item_order_cart">
+							<div class="cart-item_left">
+								<p class="price_item_name">Chicken Classico <span class="ordr_conts">(1)</span></p>
+								<p class="item_price_cart"><strong>$8.99</strong></p>
+							</div>
+						</div>
+					</div>
+					<div class="final_subtotal">
+						<div class="sub_total_table">
+							<p>Subtotal</p>
+							<p>$8.99</p>
+						</div>
+						<div class="sub_total_table">
+							<p>Estimated Tax</p>
+							<p>$2.90</p>
+						</div>
+						<div class="sub_total_table discount_row">
+							<p>
+							Discount
+							</p>
+							<p>-$3.90</p>
+						</div>
+					</div>
+					<div class="cart_subtotal_final">
+						<div class="cart_subtotal">
+							<p class="total_left">Total</p>
+							<p class="total_right">$13.20</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/owl.carousel.js"></script>
+<script src="js/custom.js"></script>
+  <!--script>
+    $('.slide_cart-wrap').owlCarousel({
+      loop: true,
+      margin: 0,
+      nav: false,
+	  stagePadding: 50,
+	  autoplay:true,
+      responsive: {
+        0: {
+          items: 1,
+        },
+		1025: {
+          items: 2,
+        }
+      }
+    })
+  </script-->
+<script>
+  function openNav() {
+    document.getElementById("mySidenavs").style.width = "280px";
+  }
+  
+  function closeNav() {
+    document.getElementById("mySidenavs").style.width = "0";
+  }
+  </script>
+  
+<script>  
+  $(".location-mains > .btn").click(function(){
+  $("body").toggleClass("open-locate");
+});
+
+$(".add-location-main .cross_btns").click(function(){
+    $("body").removeClass("open-locate");
+  });
+</script>
+
+<script>  
+  $(".similer-btn").click(function(){
+  $(".similer_main").toggleClass("open-similer");
+});
+</script>
+
+<script>
+$(".custom-select").each(function() {
+  var classes = $(this).attr("class"),
+      id      = $(this).attr("id"),
+      name    = $(this).attr("name");
+  var template =  '<div class="' + classes + '">';
+      template += '<span class="custom-select-trigger">' + $(this).attr("placeholder") + '</span>';
+      template += '<div class="custom-options">';
+      $(this).find("option").each(function() {
+        template += '<span class="custom-option ' + $(this).attr("class") + '" data-value="' + $(this).attr("value") + '">' + $(this).html() + '</span>';
+      });
+  template += '</div></div>';
+  
+  $(this).wrap('<div class="custom-select-wrapper"></div>');
+  $(this).hide();
+  $(this).after(template);
+});
+$(".custom-option:first-of-type").hover(function() {
+  $(this).parents(".custom-options").addClass("option-hover");
+}, function() {
+  $(this).parents(".custom-options").removeClass("option-hover");
+});
+$(".custom-select-trigger").on("click", function() {
+  $('html').one('click',function() {
+    $(".custom-select").removeClass("opened");
+  });
+  $(this).parents(".custom-select").toggleClass("opened");
+  event.stopPropagation();
+});
+$(".custom-option").on("click", function() {
+  $(this).parents(".custom-select-wrapper").find("select").val($(this).data("value"));
+  $(this).parents(".custom-options").find(".custom-option").removeClass("selection");
+  $(this).addClass("selection");
+  $(this).parents(".custom-select").removeClass("opened");
+  $(this).parents(".custom-select").find(".custom-select-trigger").text($(this).text());
+});
+</script>
+<script>
+var QtyInput = (function () {
+	var $qtyInputs = $(".qty-input");
+
+	if (!$qtyInputs.length) {
+		return;
+	}
+
+	var $inputs = $qtyInputs.find(".product-qty");
+	var $countBtn = $qtyInputs.find(".qty-count");
+	var qtyMin = parseInt($inputs.attr("min"));
+	var qtyMax = parseInt($inputs.attr("max"));
+
+	$inputs.change(function () {
+		var $this = $(this);
+		var $minusBtn = $this.siblings(".qty-count--minus");
+		var $addBtn = $this.siblings(".qty-count--add");
+		var qty = parseInt($this.val());
+
+		if (isNaN(qty) || qty <= qtyMin) {
+			$this.val(qtyMin);
+			$minusBtn.attr("disabled", true);
+		} else {
+			$minusBtn.attr("disabled", false);
+			
+			if(qty >= qtyMax){
+				$this.val(qtyMax);
+				$addBtn.attr('disabled', true);
+			} else {
+				$this.val(qty);
+				$addBtn.attr('disabled', false);
+			}
+		}
+	});
+
+	$countBtn.click(function () {
+		var operator = this.dataset.action;
+		var $this = $(this);
+		var $input = $this.siblings(".product-qty");
+		var qty = parseInt($input.val());
+
+		if (operator == "add") {
+			qty += 1;
+			if (qty >= qtyMin + 1) {
+				$this.siblings(".qty-count--minus").attr("disabled", false);
+			}
+
+			if (qty >= qtyMax) {
+				$this.attr("disabled", true);
+			}
+		} else {
+			qty = qty <= qtyMin ? qtyMin : (qty -= 1);
+			
+			if (qty == qtyMin) {
+				$this.attr("disabled", true);
+			}
+
+			if (qty < qtyMax) {
+				$this.siblings(".qty-count--add").attr("disabled", false);
+			}
+		}
+
+		$input.val(qty);
+	});
+})();
+</script>
+
+</body>
+</html>
