@@ -6323,3 +6323,15 @@ border-color: var(--stroke-color, #dddddd);
 border-width: 1px;
 padding: 12px 12px 12px 16px;
 }
+
+.accord-kokee .right_cont_accord {
+background: #fff;
+}
+
+.accord-kokee .left_cont_accord p {
+    color: #a6a6a6;
+    text-align: left;
+    font-size: 12px;
+    letter-spacing: -0.02em;
+    font-weight: 300;
+}
