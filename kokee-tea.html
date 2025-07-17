@@ -1271,17 +1271,21 @@
       <script src="js/custom.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
       <script>
-         var swiper = new Swiper(".mySwiperbanner", {
-            direction: 'horizontal',
-            slidesPerView: 1,
-            spaceBetween: 10,
-            loop: true,
-            pagination: {
-               el: ".swiper-pagination",
-               clickable: true,  // Makes the dots clickable
-               dynamicBullets: true // Optional: makes the dots animated
-            }
-         });
+var swiper = new Swiper(".mySwiperbanner", {
+  direction: 'horizontal',
+  slidesPerView: 1,
+  spaceBetween: 10,
+  loop: true,
+  autoplay: {
+    delay: 3000, // time between slides in milliseconds
+    disableOnInteraction: false // autoplay continues even after user interaction
+  },
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+    dynamicBullets: true
+  }
+});
       </script>
       <script>
          var swiper = new Swiper(".mySwiperarrivals", {
@@ -1289,6 +1293,11 @@
             slidesPerView: 4,
             spaceBetween: 21,
             loop: true,
+              loop: true,
+  autoplay: {
+    delay: 3000, // time between slides in milliseconds
+    disableOnInteraction: false // autoplay continues even after user interaction
+  },
             scrollbar: {
                el: ".swiper-scrollbar",
                hide: false,
