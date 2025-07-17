@@ -6029,13 +6029,18 @@ height: 500px;
 }
 
 .contentss {
-position: absolute;
-top: 97px;
-left: 50%;
-z-index: 2;
-transform: translateX(-50%);
+    position: absolute;
+    top: 97px;
+    left: 50%;
+    z-index: 2;
+    transform: translateX(-50%);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
 }
-
 .banner-slider .banner-img figure {
 height: 100%;
 }
@@ -6100,18 +6105,22 @@ box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.15);
 display: flex;
 justify-content: center;
 align-items: center;
+background:#fff;
 border-radius: 50%;
+
 }
 
 .kokee-order .left-flex figure img {
 width: 153.93px;
 height: 123.94px;
+object-fit: cover;
 }
 
 .kokee-order .left-flex h2 {
 color: #000000;
 font-size: 47.41176223754883px;
 font-weight: 600;
+margin: 0;
 }
 
 .kokee-order .right {display: flex;justify-content: end;align-items: center;height: 100%;}
@@ -6205,8 +6214,10 @@ max-width: 1002px;
 }
 
 .special-offers-sec {
-border-radius: 9.33px;
-box-shadow: 1.55px 1.55px 6.22px rgba(0, 0, 0, 0.25);
+    border-radius: 9.33px;
+    box-shadow: 1.55px 1.55px 6.22px rgba(0, 0, 0, 0.25);
+    height: 100%;
+    background: #fff;
 }
 
 .special-offers figure {
@@ -6326,4 +6337,27 @@ color: #8ab800;
 
 .kokee-order .right a:hover {
 background: #000;
+}
+
+
+.banner-slider .banner-img figure img:last-child {
+display: none;
+}
+
+
+.special-offers-main  .swiper-scrollbar-drag {
+background: var(--main-green, #8ab800);
+}
+.special-offers-main  .swiper-scrollbar {
+background: var(--bar-gray, #e8e8e8);
+height: 4.66px;
+}
+.accord-kokee.accord-row  .col-12 {
+background: transparent;
+}
+
+.accord-kokee.accord-row .accord_card_Wrap {
+display: flex;
+justify-content: center;
+align-items: center;
 }

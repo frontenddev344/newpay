@@ -816,10 +816,41 @@ div#mySidenavs,.header_navigation {
 }
 .field-radios [type="radio"]:checked + label:after, .field-radios [type="radio"]:not(:checked) + label:after {
     top: 19px;
-    right: 15px;
+right: 15px;
+}
+.banner-slider .banner-img {
+position: relative;
+height: 420px;
+}
+.contentss {
+top: 70px;
+}
+.banner-slider .swiper-pagination {
+bottom: 29px!important;
+}
+.kokee-order .left-flex {
+gap: 20px;
+}
+.kokee-order .left-flex h2 {
+font-size: 30px;
+}
+.kokee-order .left-flex figure {
+width: 100px;
+height: 100px;
+}
+.kokee-order .left-flex figure img {
+    width: 80px;
+    height: 80px;
+}
+.arrivals-sec .card-product p {
+font-size: 14px;
+}
+.special-offers .card-product-text p {
+font-size: 14px;
+}
 }
 
-}
+
 @media only screen and (max-width: 767px) {
 .item_size.complete_meal .owl-stage {
     margin-left: -18px;
@@ -1039,30 +1070,131 @@ div#mySidenavs,.header_navigation {
 #acordmodal .add_order_btn {
     background: transparent;
     box-shadow: none;
-    padding: 0;
-    position: static;
-    margin-top: 43px;
+padding: 0;
+position: static;
+margin-top: 43px;
 }
 #acordmodal .add_order_btn .order_btn {
-    background: var(--Background-Gray, #F4F4F4);
-    box-shadow: 0px -3px 4px 0px rgba(0, 0, 0, 0.10);
-    padding: 16px;
-    position: absolute;
-    z-index: 9;
-    left: 0;
-    right: 0;
-    bottom: 0;
+background: var(--Background-Gray, #F4F4F4);
+box-shadow: 0px -3px 4px 0px rgba(0, 0, 0, 0.10);
+padding: 16px;
+position: absolute;
+z-index: 9;
+left: 0;
+right: 0;
+bottom: 0;
 }
 #acordmodal .modal-content {
-    border-radius: 0;
+border-radius: 0;
 }
 .item_size_form form p {
-    width: 100%;
+width: 100%;
 }
 div#verfiymodalModal_MAIL .modal-dialog {
-    max-width: 525px;
+max-width: 525px;
+}
+
+.banner-slider .banner-img {
+height: 370px;
+}
+.banner-slider .banner-img figure img:last-child {
+display: block;
+object-position: center;
+}
+.banner-slider .banner-img figure img:first-child {
+display: none;
+}
+.contentss {
+top: 34px;
+}
+.contentss h1 {
+font-size: 70px;
+}
+.banner-slider .banner-img figure:before {
+background: linear-gradient(360deg, #acd8fd24 0, #ffffff70 -1%);
+}
+
+.kokee-order {
+padding: 30px 0;
+margin-top: -156px;
+z-index: 2;
+position: relative;
+}
+.kokee-order .left-flex figure img {
+width: 54px;
+height: 54px;
+}
+.kokee-order .left-flex figure {
+width: 70px;
+height: 70px;
+}
+.kokee-order .left-flex {
+gap: 8px;
+flex-direction: column;
+justify-content: flex-start;
+align-items: self-start;
+}
+.kokee-order .right a {
+        padding: 7px 7px 3px;
+gap: 5px;
+flex-direction: row;
+}
+.kokee-order .right {
+align-items: end;
+}
+.kokee-order {
+padding: 30px 0;
+margin-top: -187px;
+z-index: 2;
+position: relative;
+}
+.banner-slider .swiper-pagination-bullet {
+width: 10px;
+height: 10px;
+}
+.banner-slider .swiper-pagination {
+bottom: 15px!important;
+}
+
+.kokee-order .right a {
+font-size: 14px;
+}
+.kokee-order .left-flex h2 {
+font-size: 26px;
+}
+.kokee-order .right a img {
+width: 19px;
+position: relative;
+top: -3px;
+}
+.arrivals-sec .card-product h3 a {
+font-size: 16px;
+}
+.arrivals-bg .col-sm-12 {
+padding-right: 0;
+}
+.arrivals-bg {
+padding: 54px 0 36px;
+}
+.heading-same {
+font-size: 20px;
+}
+.special-offers .card-product-text h3 a {
+font-size: 16px;
+}
+.accord-kokee .other_item_accord {
+padding: 21px 21px;
+}
+.accord-kokee .heading-same {
+padding-left: 20px;
+}
+.other_item_accord .card .card-header button {
+font-size: 17px;
 }
 }
+
+
+
 @media only screen and (max-width: 575px) {
 	#acordmodal .modal-dialog {
     width: 100%;
@@ -1206,6 +1338,9 @@ font-size: 13px;
 .cart-list-right {
 margin-left: 10px;
 }
+.special-offers-main .col-sm-12 {
+    padding-right: 0;
+}
 }
 
 
@@ -1234,5 +1369,15 @@ left: 14px;
 #moneybycardlinks.modal_common button.close {
 right: 12px;
 top: 18px;
+}
+.contentss h1 {
+    font-size: 57px;
+}
+}
+
+
+@media only screen and (max-width: 350px) {
+.kokee-order .left-flex h2 {
+    font-size: 22px;
 }
 }
