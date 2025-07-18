@@ -1447,6 +1447,10 @@ font-size: 67px;
 .arrowbanner {
 top: 68px;
 }
+.location-filter input {
+flex: unset;
+width: 64%;
+}
 }
 
 
