@@ -6793,3 +6793,9 @@ align-items: center;
 padding: 8px;
 justify-content: space-around;
 }
+
+.location-info .item-count {
+color: #707070;
+font-size: 20px;
+font-weight: 400;
+}
