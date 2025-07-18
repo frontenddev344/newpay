@@ -1463,6 +1463,13 @@ top: 59px;
 padding-left: 21px;
 padding-right: 21px;
 }
+.location-filter {
+width: 100%;
+gap: 5px;
+}
+.location-filter .filter-button {
+font-size: 14px;
+}
 }
 
 

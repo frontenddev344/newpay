@@ -6077,14 +6077,15 @@ bottom: 47px!important;
 
 /* Default dots */
 .banner-slider .swiper-pagination-bullet {
-width: 16px;
-height: 16px;
-background: #d9d9d9;
-margin: 0 5px;
-border-radius: 50%;
-transition: all 0.3s ease;
-transform:unset!important;
-opacity:1;
+    width: 16px;
+    height: 16px;
+    background: #d9d9d9;
+    margin: 0 5px;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+    transform: unset!important;
+    opacity: 1;
+    left: 0!important;
 }
 
 .banner-slider .swiper-pagination-bullet-active {
@@ -6583,4 +6584,13 @@ color: #fff;
 font-size: 50px; /* Adjust as needed */
 color: white;
 text-shadow: 0px 2px 12px rgb(0 0 0 / 99%);
+}
+.kokeelocation .arrowbanner {
+top: 65px;
+}
+
+.kokeelocation .arrowbanner i {
+text-shadow: none;
+color: #000;
+font-size: 35px;
 }
