@@ -1471,6 +1471,12 @@ width: auto;
 .nav_wrap_bar ul {
 gap: 12px;
 }
+.distance-card-header h3 {
+font-size: 20px;
+}
+.distance-card-header span {
+    font-size: 20px;
+}
 }
 
 
