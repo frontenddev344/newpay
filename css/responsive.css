@@ -1272,9 +1272,18 @@ z-index: 2;
 display: block;
 }
 .kokee-order .container {
-    /* max-width: 700px; */
-    padding-left: 41px;
-    padding-right: 41px;
+/* max-width: 700px; */
+padding-left: 41px;
+padding-right: 41px;
+}
+.bottom_nav-fixed {
+display: block;
+}
+.common.view_cart_btn {
+bottom: 47px;
+}
+.bottom_nav-fixed .nav_wrap_bar ul li a {
+font-size: 12px;
 }
 }
 
@@ -1451,6 +1460,9 @@ top: 68px;
 flex: unset;
 width: 64%;
 }
+.nav_wrap_bar ul {
+gap: 12px;
+}
 }
 
 
@@ -1507,6 +1519,12 @@ height: 4px;
 }
 .distance-card .range-bar::before {
 height: 4px;
+}
+.nav_wrap_bar ul li a span {
+font-size: 12px;
+}
+.nav_wrap_bar ul li button {
+font-size: 12px;
 }
 }
 
