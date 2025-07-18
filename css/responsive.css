@@ -1458,7 +1458,10 @@ top: 68px;
 }
 .location-filter input {
 flex: unset;
-width: 64%;
+width: 79%;
+}
+.location-filter .dropdown input[type="checkbox"] {
+width: auto;
 }
 .nav_wrap_bar ul {
 gap: 12px;
