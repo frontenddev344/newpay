@@ -1475,7 +1475,11 @@ gap: 12px;
 font-size: 20px;
 }
 .distance-card-header span {
-    font-size: 20px;
+font-size: 20px;
+}
+.contentss p {
+font-size: 26px;
+
 }
 }
 
