@@ -848,6 +848,30 @@ font-size: 14px;
 .special-offers .card-product-text p {
 font-size: 14px;
 }
+.distance-card-header h3 {
+font-size: 22px;
+}
+.distance-card .subtitle {
+margin-top: 0;
+margin-bottom: 29px;
+font-size: 16px;
+}
+.distance-card-header span {
+font-size: 22px;
+}
+.distance-card {
+padding: 18px 16px;
+width: calc(100% - 20px);
+}
+.distance-card .dots div {
+width: 25px;
+height: 25px;
+}
+.distance-card .btn {
+padding: 12px;
+margin-top: 43px;
+font-size: 20px;
+}
 }
 
 
@@ -1230,7 +1254,7 @@ font-size: 14px;
 font-size: 14px;
 }
 .kokeemap iframe {
-    height: 202px;
+    height: 280px;
 }
 .banner-slider {position: relative;}
 
@@ -1469,6 +1493,16 @@ gap: 5px;
 }
 .location-filter .filter-button {
 font-size: 14px;
+}
+.distance-card .dots div {
+width: 16px;
+height: 16px;
+}
+.distance-card .range-bar {
+height: 4px;
+}
+.distance-card .range-bar::before {
+height: 4px;
 }
 }
 

@@ -6604,3 +6604,134 @@ font-size: 35px;
 
 
 
+.distance-card {
+    padding: 36px 30px;
+    width: 100%;
+    background: #ffffff;
+    border-radius: 12.2px;
+    border-style: solid;
+    border-color: #c4c4c4;
+    border-width: 2.03px;
+    max-width: 664px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.distance-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.distance-card-header h3 {
+    margin: 0;
+    color: #000000;
+    text-align: left;
+    font-size: 32.536312103271484px;
+    font-weight: 600;
+}
+
+.distance-card .card-header h3 {
+font-size: 18px;
+margin: 0;
+}
+
+.distance-card .card-header span {
+font-size: 16px;
+font-weight: bold;
+}
+
+.distance-card .subtitle {
+    margin-top: 3px;
+    margin-bottom: 38px;
+    color: var(--dark-gray, #787878);
+    text-align: left;
+    font-size: 24.402233123779297px;
+    font-weight: 400;
+}
+
+.distance-card .range-container {
+display: flex;
+align-items: center;
+justify-content: space-between;
+position: relative;
+margin-bottom: 25px;
+}
+
+.distance-card .range-bar {
+flex: 1;
+height: 8px;
+background: #eee;
+border-radius: 10px;
+position: relative;
+}
+
+.distance-card .range-bar::before {
+content: "";
+position: absolute;
+height: 8px;
+  background: #8ab800;
+border-radius: 10px;
+left: 0;
+width: 40%;
+z-index: 1;
+}
+
+.distance-card .range-dot {
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    left: 0%;
+    width: 31.69px;
+    height: 31.69px;
+    background: #8ab800;
+	display: none;
+}
+
+.distance-card .dots {
+position: absolute;
+top: 50%;
+left: 0;
+width: 100%;
+display: flex;
+justify-content: space-between;
+transform: translateY(-50%);
+}
+
+.distance-card .dots div {
+    background: #ddd;
+    border-radius: 50%;
+    width: 31.69px;
+    height: 31.69px;
+    background: #edeeef;
+}
+
+.distance-card .dots div.active {
+    background: #8ab800;
+}
+
+.distance-card .btn {
+    display: block;
+    width: 100%;
+    background: #8ab800;
+    border: none;
+    padding: 24px;
+    border-radius: 6px;
+    margin-top: 53px;
+    color: var(--white, #ffffff);
+    text-align: center;
+    font-size: 28.46927261352539px;
+    font-weight: 500;
+}
+
+.distance-card .btn:hover {
+background: #68a900;
+}
+.distance-card-header span {
+    color: #000000;
+    font-size: 32.536312103271484px;
+    font-weight: 600;
+}
