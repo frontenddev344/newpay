@@ -1240,7 +1240,10 @@ font-size: 16px;
 padding-bottom: 26px;
 }
 .location-info {
-padding: 24px 24px 95px
+padding: 24px;
+}
+.location-destance-page .location-info {
+padding: 24px 24px 93px;
 }
 .location-info .container {
     padding: 16px 16px;
