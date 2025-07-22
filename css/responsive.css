@@ -1565,6 +1565,9 @@ font-size: 13px;
 font-size: 12px;
 margin: 0;
 } 
+.special-offers figure {
+    height: 127px;
+}
 }
 
 
