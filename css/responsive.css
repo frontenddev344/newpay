@@ -1550,6 +1550,21 @@ font-size: 12px;
 }
 
 
+
+@media only screen and (max-width: 420px) {
+.arrivals-bg.second .card-product figure {
+height: 117px;
+} 
+.arrivals-bg.second .card-product h3 a {
+font-size: 13px;
+} 
+.arrivals-sec .card-product p {
+font-size: 12px;
+margin: 0;
+} 
+}
+
+
 @media only screen and (max-width: 380px) {
 .kokee-order .left-flex h2 {
 font-size: 22px;
