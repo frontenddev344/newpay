@@ -6727,6 +6727,7 @@ width: 31.69px;
 height: 31.69px;
 background: #edeeef;
 cursor: pointer;
+user-select: none;
 }
 
 .distance-card .dots div.active {
