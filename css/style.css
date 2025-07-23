@@ -382,8 +382,8 @@ justify-content: center;
 margin-top: 30px;
 }
 .banner-slider {
-    max-width: 2000px;
-    margin: 0 auto;
+max-width: 2000px;
+margin: 0 auto;
 }
 .location-form p {
 font-weight: 600;
@@ -3375,14 +3375,14 @@ justify-content: center;
 margin: 0;
 }
 .view_cart_btn {
-    position: fixed;
-    z-index: 9;
-    bottom: 0;
-    width: 100%;
-    margin: 0;
-    padding: 16px 16px 30px 16px;
-    display: none;
-    left: 0;
+position: fixed;
+z-index: 9;
+bottom: 0;
+width: 100%;
+margin: 0;
+padding: 16px 16px 30px 16px;
+display: none;
+left: 0;
 }
 .cart_mob_head {
 display: none;
@@ -6082,15 +6082,15 @@ bottom: 47px!important;
 
 /* Default dots */
 .banner-slider .swiper-pagination-bullet {
-    width: 16px;
-    height: 16px;
-    background: #d9d9d9;
-    margin: 0 5px;
-    border-radius: 50%;
-    transition: all 0.3s ease;
-    transform: unset!important;
-    opacity: 1;
-    left: 0!important;
+width: 16px;
+height: 16px;
+background: #d9d9d9;
+margin: 0 5px;
+border-radius: 50%;
+transition: all 0.3s ease;
+transform: unset!important;
+opacity: 1;
+left: 0!important;
 }
 
 .banner-slider .swiper-pagination-bullet-active {
@@ -6534,22 +6534,22 @@ margin: 0 0 15px;
 
 
 .location-info .flex-btn button {
-	background: #edeeef;
-	border-radius: 11.98px;
-	color: var(--black, #000000);
-	text-align: center;
-	font-size: 16.47477149963379px;
-	font-weight: 500;
-	border: 0;
-	padding: 10px 35px;
-	transition: all .3s ease;
-	-webkit-transition: all .3s ease;
-	-moz-transition: all .3s ease;
-	-ms-transition: all .3s ease;
-	-o-transition: all .3s ease;
-    cursor: pointer;
-    outline: none;
-    box-shadow: none;
+background: #edeeef;
+border-radius: 11.98px;
+color: var(--black, #000000);
+text-align: center;
+font-size: 16.47477149963379px;
+font-weight: 500;
+border: 0;
+padding: 10px 35px;
+transition: all .3s ease;
+-webkit-transition: all .3s ease;
+-moz-transition: all .3s ease;
+-ms-transition: all .3s ease;
+-o-transition: all .3s ease;
+cursor: pointer;
+outline: none;
+box-shadow: none;
 }
 
 
@@ -6626,7 +6626,7 @@ display: none;
 }
 
 .distance-card.distance-card-show{
-    display: block;
+display: block;
 }
 
 .distance-card-header {
@@ -6690,13 +6690,13 @@ z-index: 1;
 display: none
 }
 .range-bar-live {
-    position: absolute;
-    height: 8px;
-    background: #8ab800;
-    border-radius: 10px;
-    left: 0;
-    width: 0;
-    z-index: 1;
+position: absolute;
+height: 8px;
+background: #8ab800;
+border-radius: 10px;
+left: 0;
+width: 0;
+z-index: 1;
 }
 .distance-card .range-dot {
 border-radius: 50%;
@@ -6826,53 +6826,53 @@ font-weight: 400;
 }
 
 .centreville-live {
-    position: absolute;
-    top: 54%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: calc(100% - 20px);
-    max-width: 715px;
-    background: #ffffff;
-    border-radius: 13.12px;
-    border-style: solid;
-    border-color: #c4c4c4;
-    border-width: 2.19px;
-    padding: 59px;
-    z-index: 2;
-    display: none;
+position: absolute;
+top: 54%;
+left: 50%;
+transform: translate(-50%, -50%);
+width: calc(100% - 20px);
+max-width: 715px;
+background: #ffffff;
+border-radius: 13.12px;
+border-style: solid;
+border-color: #c4c4c4;
+border-width: 2.19px;
+padding: 59px;
+z-index: 2;
+display: none;
 }
 .centreville-live.centreville-live-show {
 display: block;
 }
 .centreville-live h2 {
-    margin: 0 0 10px;
-    color: #000000;
-    text-align: left;
-    font-size: 34.984710693359375px;
-    font-weight: 600;
+margin: 0 0 10px;
+color: #000000;
+text-align: left;
+font-size: 34.984710693359375px;
+font-weight: 600;
 }
 
 .centreville-live p {
-    color: var(--dark-gray, #787878);
-    text-align: left;
-    font-size: 26.2385311126709px;
-    font-weight: 400;
-    max-width: 300px;
+color: var(--dark-gray, #787878);
+text-align: left;
+font-size: 26.2385311126709px;
+font-weight: 400;
+max-width: 300px;
 }
 
 .centreville-live ul {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
+display: flex;
+flex-wrap: wrap;
+gap: 30px;
 }
 
 .centreville-live ul li a {
-    display: inline-block;
-    width: 107px;
-    height: 107px;
+display: inline-block;
+width: 107px;
+height: 107px;
 }
 
 .centreville-live ul li a img {
-    width: 100%;
-    height: 100%;
+width: 100%;
+height: 100%;
 }
