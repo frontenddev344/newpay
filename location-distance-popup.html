@@ -148,7 +148,10 @@
 
     <script>
   $('.delivery-btns').on('click', function() {
-    $(".centreville-live").addClass('centreville-live-show');
+    $(".centreville-live").toggleClass('centreville-live-show');
+  });
+    $('.filter-button').on('click', function() {
+    $(".distance-card").toggleClass('distance-card-show');
   });
 </script>
 

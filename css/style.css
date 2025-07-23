@@ -6622,6 +6622,11 @@ position: absolute;
 top: 50%;
 left: 50%;
 transform: translate(-50%, -50%);
+display: none;
+}
+
+.distance-card.distance-card-show{
+    display: block;
 }
 
 .distance-card-header {
@@ -6682,8 +6687,17 @@ border-radius: 10px;
 left: 0;
 width: 40%;
 z-index: 1;
+display: none
 }
-
+.range-bar-live {
+    position: absolute;
+    height: 8px;
+    background: #8ab800;
+    border-radius: 10px;
+    left: 0;
+    width: 0;
+    z-index: 1;
+}
 .distance-card .range-dot {
 border-radius: 50%;
 position: absolute;
@@ -6712,6 +6726,7 @@ border-radius: 50%;
 width: 31.69px;
 height: 31.69px;
 background: #edeeef;
+cursor: pointer;
 }
 
 .distance-card .dots div.active {

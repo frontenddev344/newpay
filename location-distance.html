@@ -38,14 +38,14 @@
                         <div class="location-filter">
                             <span class="icon"><img src="images/locations.png" alt="locations.png"></span>
                             <input type="text" placeholder="Enter a Location" />
-                            <span class="filter-button" onclick="toggleDropdown()"><img src="images/tune.png"
+                            <span class="filter-button"><img src="images/tune.png"
                                     alt="tune"> Filter</span>
-
+<!-- 
                             <div class="dropdown" id="filterDropdown">
                                 <label><input type="checkbox" /> Nearby</label>
                                 <label><input type="checkbox" /> Open Now</label>
                                 <label><input type="checkbox" /> Offers Available</label>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
@@ -56,32 +56,50 @@
     <!-- kokeemap -->
     <section class="kokeemap">
        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6098.669354495805!2d-74.9250506!3d40.1571016!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c1525876120725%3A0xd8efbffcf1f5110d!2sOld%20Lincoln%20Hwy%20%26%20Glen%20Av!5e0!3m2!1sen!2sin!4v1752825127220!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        <div class="distance-card">
-            <div class="distance-card-header">
-                <h3>Distance</h3>
-                <span>5 mi</span>
-            </div>
-            <div class="subtitle">Select minimum distance</div>
-            <div class="range-container">
-                <div class="range-bar"></div>
-                <div class="dots">
-                    <div class="active"></div>
-                    <div></div>
-                    <div class="active"></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
-                <div class="range-dot"></div>
-            </div>
-            <button class="btn">Continue</button>
+        
+<div class="distance-card">
+    <div class="distance-card-header">
+        <h3>Distance</h3>
+        <span id="distance-value">5 mi</span>
+    </div>
+    <div class="subtitle">Select minimum distance</div>
+
+    <div class="range-container">
+        <div class="range-bar">
+        <div class="range-bar-live"></div>
         </div>
+        <div class="dots">
+            <div class="dot active" data-distance="5"></div>
+            <div class="dot" data-distance="10"></div>
+            <div class="dot" data-distance="15"></div>
+            <div class="dot" data-distance="20"></div>
+            <div class="dot" data-distance="25"></div>
+            <div class="dot" data-distance="30"></div>
+        </div>
+        <div class="range-dot"></div>
+    </div>
+
+    <button class="btn">Continue</button>
+</div>
+
+
+     <div class="centreville-live">
+       <div class="live-text">
+            <h2>Centreville VA</h2>
+            <p>5079 Westfields Blvd Centreville, VA 20120</p>
+             <ul>
+                <li><a href="#"><img src="images/uber_eats.png" alt="uber"></a></li>
+                <li><a href="#"><img src="images/uber_eats1.png" alt="uber"></a></li>
+                <li><a href="#"><img src="images/uber_eats2.png" alt="uber"></a></li>
+                <li><a href="#"><img src="images/uber_eats3.png" alt="uber"></a></li>
+             </ul>
+       </div>
+     </div>
+
+
+
     </section>
     <!-- kokeemap end -->
-
-
-
-
 
     <section class="location-info">
         <h2 class="heading-same">Locations <span class="item-count">(4)</span></h2>
@@ -98,7 +116,7 @@
                         <p><img src="images/location2.png" alt="location2.png"> 2.1m</p>
                         <div class="flex-btn">
                             <button>Pickup</button>
-                            <button>Delivery</button>
+                            <button class="delivery-btns">Delivery</button>
                         </div>
                     </div>
                 </div>
@@ -115,7 +133,7 @@
                         <p><img src="images/location2.png" alt="location2.png"> 2.1m</p>
                         <div class="flex-btn">
                             <button>Pickup</button>
-                            <button>Delivery</button>
+                            <button class="delivery-btns">Delivery</button>
                         </div>
                     </div>
                 </div>
@@ -1007,6 +1025,45 @@
             }
         });
     </script>
+
+
+<script>
+const dots = document.querySelectorAll(".dot");
+const rangeBarLive = document.querySelector(".range-bar-live");
+const distanceValue = document.getElementById("distance-value");
+
+dots.forEach((dot, index) => {
+  dot.addEventListener("click", () => {
+    // Remove active from all except the first one
+    dots.forEach((d, i) => {
+      if (i !== 0) d.classList.remove("active");
+    });
+
+    // Add active to clicked dot
+    dot.classList.add("active");
+
+    // Update distance value
+    const value = dot.getAttribute("data-distance");
+    distanceValue.textContent = `${value} mi`;
+
+    // Update range-bar-live width
+    const totalDots = dots.length - 1;
+    const percent = (index / totalDots) * 100;
+    rangeBarLive.style.width = `${percent}%`;
+  });
+});
+
+</script>
+
+    <script>
+  $('.filter-button').on('click', function() {
+    $(".distance-card").toggleClass('distance-card-show');
+  });
+    $('.delivery-btns').on('click', function() {
+    $(".centreville-live").toggleClass('centreville-live-show');
+  });
+</script>
+
 
 </body>
 
