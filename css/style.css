@@ -6954,8 +6954,9 @@ height: 100%;
     cursor: pointer;
     transition: all .3s ease;
     font-size: 15px;
+    border: 0;
+    outline: none;
 }
-
 
 .loaction-wrap-main .order-btn:hover {
 background-color: #006bb3;
