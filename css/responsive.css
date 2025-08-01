@@ -1311,6 +1311,20 @@ font-size: 11px;
 .centreville-live {
 top: 24%;
 }
+.loaction-wrap-main .locations-wrapper {
+height: 375px;
+    max-width: 353px;
+}
+.numbering-location iframe {
+height: 375px;
+}
+.loaction-wrap-main .location-card {
+align-items: self-start;
+flex-direction: column;
+}
+.loaction-wrap-main .order-btn {
+margin-left: 36px;
+}
 }
 
 
@@ -1525,6 +1539,14 @@ left: 19px;
 .centreville-live {
     top: 16%;
 }
+
+.loaction-wrap-main .location-card {
+padding-left: 0;
+padding-right: 0;
+}
+.loaction-wrap-main .location-number {
+left: 0;
+}
 }
 
 
@@ -1593,6 +1615,18 @@ height: 154px;
 }
 .range-bar-live {
 height: 4px;
+}
+.loaction-wrap-main .locations-wrapper {
+max-width: 250px;
+}
+.loaction-wrap-main .location-status {
+font-size: 12px;
+}
+.loaction-wrap-main .location-address {
+font-size: 12px;
+}
+.loaction-wrap-main .order-btn {
+font-size: 13px;
 }
 }
 
