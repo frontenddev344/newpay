@@ -7026,14 +7026,25 @@ height: 580px;
 	font-size: 16px;
 }
 .toast-message {
-    position: fixed;
-    bottom: 70px;
-    left: 50%;
-    transform: translateX(-50%);
-    background: #4e4e4e;
-    padding: 20px 50px;
-    border-radius: 56px;
-    width: calc(100% - 20px);
-    max-width: 338px;
-    text-align: center;
+position: fixed;
+bottom: 70px;
+left: 50%;
+transform: translateX(-50%);
+background: #4e4e4e;
+padding: 20px 50px;
+border-radius: 56px;
+width: calc(100% - 20px);
+max-width: 338px;
+text-align: center;
+height: fit-content;
+}
+
+.toast-message.center {
+top: 50%;
+transform: translate(-50% ,-50%);
+}
+
+.toast-message.top {
+top: 79px;
+z-index: 999;
 }
