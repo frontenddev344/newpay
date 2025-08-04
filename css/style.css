@@ -6179,12 +6179,12 @@ height: 100%;
 .arrivals-sec .card-product p {
     color: #a6a6a6;
     text-align: left;
-    font-size: 16px;
+    font-size: 15px;
     letter-spacing: -0.02em;
     font-weight: 300;
     margin: 10px 0 0;
     display: -webkit-box;
-    -webkit-line-clamp: 3;
+    -webkit-line-clamp: 5;
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -6279,6 +6279,7 @@ padding: 0;
     overflow: hidden;
     text-overflow: ellipsis;
     padding: 0;
+    max-width: 25ch;
 }
 
 .special-offers .card-product-text p {
@@ -6289,7 +6290,7 @@ padding: 0;
     font-weight: 300;
     margin: 10px 0 0;
     display: -webkit-box;
-    -webkit-line-clamp: 4;
+    -webkit-line-clamp: 5;
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
