@@ -1336,6 +1336,9 @@ padding: 15px 46px;
 .toast-message p {
 font-size: 15px;
 }
+.toast-message.top {
+    top: 103px;
+}
 }
 
 
