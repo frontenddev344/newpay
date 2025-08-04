@@ -6156,14 +6156,38 @@ box-shadow: 3px 4px 6px rgba(0, 0, 0, 0.25);
 height: 100%;
 }
 
-.arrivals-sec .card-product h3 a { color: #000; text-align: left; font-size: 21.764192581176758px; font-weight: 600; display: block; padding-bottom: 6px; transition:all .3s ease ; -webkit-transition:all .3s ease ; -moz-transition:all .3s ease ; -ms-transition:all .3s ease ; -o-transition:all .3s ease ; }
+.arrivals-sec .card-product h3 a {
+    color: #000;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 600;
+    display: block;
+    padding-bottom: 6px;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 0;
+}
 
 .arrivals-sec .card-product p {
-color: #a6a6a6;
-text-align: left;
-font-size: 18.65502166748047px;
-letter-spacing: -0.02em;
-font-weight: 300;
+    color: #a6a6a6;
+    text-align: left;
+    font-size: 16px;
+    letter-spacing: -0.02em;
+    font-weight: 300;
+    margin: 10px 0 0;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 .arrivals-sec .card-product figure {
 height: 178px;
@@ -6243,20 +6267,32 @@ padding: 0;
 }
 
 .special-offers .card-product-text h3 a {
-color: #000000;
-text-align: left;
-font-size: 21.764192581176758px;
-font-weight: 600;
-padding-bottom: 6px;
-display: block;
+    color: #000000;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 600;
+    padding-bottom: 6px;
+    display: block;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 0;
 }
 
 .special-offers .card-product-text p {
-color: #a6a6a6;
-text-align: left;
-font-size: 18.65502166748047px;
-letter-spacing: -0.02em;
-font-weight: 300;
+    color: #a6a6a6;
+    text-align: left;
+    font-size: 16px;
+    letter-spacing: -0.02em;
+    font-weight: 300;
+    margin: 10px 0 0;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .special-offers .card-product-text {
