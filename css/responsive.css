@@ -1235,7 +1235,7 @@ padding-left: 20px;
 font-size: 17px;
 }
 .banner-slider .banner-img figure:after {
-    content: "";
+content: "";
 position: absolute;
 top: 0;
 left: 0;
