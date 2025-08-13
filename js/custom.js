@@ -47,7 +47,7 @@ $(".stp-btn a").click(function(){
         
 
 
-$(".forgot .form-control").on("click", function() {
+$(".forgot .form-control-popup").on("click", function() {
 $("body").toggleClass("forgot-active");
 });
 $(".forgot-active-remove").on("click", function() {
