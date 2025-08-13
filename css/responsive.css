@@ -1346,6 +1346,55 @@ font-size: 15px;
 .toast-message.top {
     top: 103px;
 }
+.forgot  .modal-content {
+max-width: 430px;
+margin: 0 auto;
+}
+.forgot  .cancil {
+width: calc(100% - 20px);
+left: 0;
+right: 0;
+}
+.forgot  svg {
+width: 17px;
+height: 15px;
+}
+.forgot .modal-content  .modal-body h6 {
+font-size: 16px;
+padding-top: 20px;
+}
+.modal-content .para-common {
+max-width: 198px;
+font-size: 13px;
+margin: 0 auto 27px;
+}
+.forgot-active .verfiy-model {
+left: 50%;
+max-width: 386px;
+}
+.forgot-active .content {
+    padding-top: 63px;
+}
+.verify_number input {
+width: 38px;
+height: 45px;
+}
+.verify_number_forget h3 {
+font-size: 16px;
+}
+.verify_number_forget p {
+font-size: 13px;
+}
+.verfiy-model.verify_number_forget span {
+margin-top: 42px;
+}
+.forgot-active .verfiy-model .cancil {
+width: calc(100% - 46px);
+left: 0;
+max-width: 407px;
+margin: 0 auto;
+right: 0;
+}
 }
 
 

@@ -7048,3 +7048,171 @@ transform: translate(-50% ,-50%);
 top: 79px;
 z-index: 999;
 }
+
+
+
+/* 13-08-2025 */
+
+.forgot .modal-content  .modal-body h6 {
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 20px;
+    padding-top: 40px;
+}
+.modal-content .para-common {
+color: var(--dark-gray, #787878);
+text-align: center;
+max-width: 242px;
+margin: 0 auto 40px;
+font-size: 15.5px;
+font-weight: 500;
+}
+.forgot .modal-body {
+    max-width: 386px;
+    padding-bottom: 53px;
+}
+.forgot .modal-body .form-group input {
+max-width: 310px;
+margin: 0 auto;
+}
+.forgot  .cancil {
+    position: absolute;
+    top: 32px;
+    right: 0;
+    width: calc(100% + 24px);
+    display: flex;
+    justify-content: space-between;
+    left: -12px;
+    margin: auto;
+}
+.forgot .cancil .slide_btn {
+position: static;
+}
+
+.forgot .cancil button.close {
+margin: 0!important;
+}
+
+
+.verfiy-model {
+position: fixed;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+background: #ffffff;
+border-radius: 5px;
+box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.08);
+padding: 30px 30px 20px;
+width: calc(100% - 20px);
+max-width: 441px;
+z-index: 9999;
+box-shadow: 0 0 0 50vmax rgb(0 0 0 / 47%);
+display: none;
+}
+
+
+.verify_number_forget .verfiy-model{
+display: block
+}
+
+.verify_number_forget .forgot .modal-content {
+background: transparent;
+}
+.forgot-active .forgot .modal-content .modal-body {
+display: none;
+}
+.forgot-active .verfiy-model {
+display: block;
+max-width: 525px;
+left: 49.9%;
+}
+.forgot-active .verfiy-model .cancil {
+width: 100%;
+left: 0;
+max-width: 407px;
+}
+.forgot-active .content {
+padding-top: 75px;
+}
+.forgot .cancil button.close span {
+margin: 0;
+}
+
+.verify_number_forget   h3 {
+font-size: 20px;
+font-weight: 700;
+}
+
+.verify_number_forget   p {
+font-size: 15.5px;
+font-weight: 500;
+line-height: normal;
+max-width: 373px;
+margin: 13px auto 20px;
+}
+.sign_up_bar .verify_number_forget a.btn.btn-green {
+margin-left: auto;
+margin-right: auto;
+max-width: 406px;
+}
+
+.sign_up_bar.forgot a.btn.btn-green {
+text-decoration: none;
+}
+.forgot-active .verfiy-model.verfiy-reset-model {
+display: none;
+}
+.password-reset .verfiy-model.verfiy-reset-model {
+display: block;
+}
+
+
+.password-reset .verify_number_forget .forgot .modal-content {
+background: transparent;
+}
+
+.password-reset .forgot .modal-content .modal-body {
+display: none;
+}
+
+.verfiy-reset-model.verfiy-model {
+    max-width: 525px;
+    left: 49.9%;
+    padding-bottom: 56px;
+}
+
+.verfiy-reset-model.verfiy-model .cancil {
+    width: 100%;
+    left: 0;
+    max-width: 446px;
+}
+.verfiy-reset-model.verfiy-model .content {
+padding-top: 75px;
+}
+
+.verfiy-reset-model.verfiy-model   h3 {font-size: 20px;font-weight: 700;margin-bottom: 35px;}
+
+.verfiy-reset-model.verfiy-model form {
+max-width: 327px;
+margin: 0 auto;
+}
+
+.verfiy-reset-model.verfiy-model .form-group input {
+background: #EDEEEF;
+color: var(--Black, #000);
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 22px;
+padding: 8px 38px 8px 16px;
+border: 0;
+height: 45px;
+outline: 0;
+box-shadow: none !important;
+border-radius: 6px;
+}
+.verfiy-reset-model.verfiy-model a.btn.btn-green {
+    margin-top: 47px;
+    max-width: 380px;
+}

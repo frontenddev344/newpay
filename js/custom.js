@@ -46,3 +46,19 @@ $(".stp-btn a").click(function(){
         
         
 
+
+$(".forgot .form-control").on("click", function() {
+$("body").toggleClass("forgot-active");
+});
+$(".forgot-active-remove").on("click", function() {
+    $("body").removeClass("forgot-active");
+});
+
+$(".password-reset").on("click", function() {
+$("body").toggleClass("password-reset");
+});
+
+$(".password-reset").on("click", function() {
+$("body").removeClass("forgot-active");
+});
+
