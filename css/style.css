@@ -7304,8 +7304,15 @@ width: 100%;
 border-radius: 6.45px;
 padding: 13px 10px;
 background: #8ab800;
+transition: all .3s ease;
+}
+.btns-group .style-btn:first-child:hover {
+color: #fff;
+}
+.btns-group .style-btn:hover{
+background: #000;
 }
 
 .earned-point.active {
-    display: none;
+display: none;
 }
