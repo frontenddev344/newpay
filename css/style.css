@@ -7219,17 +7219,17 @@ max-width: 380px;
 
 /* 22-08-2025 */
 .earned-point {
-position: fixed;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
-box-shadow: 5px 4px 4px 0px rgba(0, 0, 0, 0.25);
-background: #ffffff;
-border-radius: 15px;
-width: 100%;
-max-width: 371px;
-padding: 13px;
-z-index: 9;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 5px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    background: #ffffff;
+    border-radius: 15px;
+    width: calc(100% - 20px);
+    max-width: 371px;
+    padding: 13px;
+    z-index: 9;
 }
 
 .earned-point-inner {
@@ -7304,4 +7304,8 @@ width: 100%;
 border-radius: 6.45px;
 padding: 13px 10px;
 background: #8ab800;
+}
+
+.earned-point.active {
+    display: none;
 }

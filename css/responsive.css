@@ -1733,10 +1733,16 @@ font-size: 12px;
 margin: 0;
 } 
 .special-offers figure {
-    height: 127px;
+height: 127px;
 }
 .centreville-live {
 padding: 27px 16px;
+}
+.btns-group .style-btn {
+font-size: 13px;
+}
+.btns-group {
+gap: 13px;
 }
 }
 

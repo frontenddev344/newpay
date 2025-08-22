@@ -62,3 +62,6 @@ $(".password-reset").on("click", function() {
 $("body").removeClass("forgot-active");
 });
 
+$(".cancil-earned").on("click", function() {
+    $(".earned-point").addClass("active");
+});
